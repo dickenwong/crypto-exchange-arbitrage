@@ -15,7 +15,7 @@ module.exports = function* main(X, Mb, Tt, symbol, sellExch, exchanges, _print =
     return fetchTick(exchInfo.name, symbol)
       .then(tick => {
         const Fxb = tick.ask;
-        const depositCount = Math.ceil(X / Math.min(exchInfo.Mb, Mb));
+        const depositCount = Math.max(1, Math.ceil(X / Math.min(exchInfo.Mb, Mb)));
         const _Cb = typeof exchInfo.Cb === 'function'
           ? exchInfo.Cb(X / depositCount)
           : exchInfo.Cb;
