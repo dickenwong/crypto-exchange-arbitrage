@@ -1,0 +1,23 @@
+{
+  "name": "bitcoin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tickers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bitfinex-api-node": "^1.0.4",
+    "bitstamp": "^1.0.2",
+    "ccxt": "^1.4.29",
+    "cexio": "0.0.5",
+    "cli-table": "^0.3.1",
+    "co": "^4.6.0",
+    "gemini-api": "^2.0.4",
+    "hitbtc-api": "^3.0.2",
+    "request-promise": "^4.2.1",
+    "yargs": "^8.0.2"
+  }
+}
