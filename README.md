@@ -20,7 +20,7 @@ node BTCUSD.js --X=10000  # X is your capital in USD
 | Nw | Number of withdrawals needed |
 | totalCb | Total amount of charge spent on deposit, including remittance fee (USD)|
 | Tbtc | BTC Withdrawal Charge (BTC)|
-| totalCb | Total amount of charge spent on withdrawal (USD) |
+| totalCs | Total amount of charge spent on withdrawal (USD) |
 | Y | Amount of fiat currency you finally receive (USD) |
 | profit | Profit |
 | MPR | NORMINAL monthly percentage rate of profit |
