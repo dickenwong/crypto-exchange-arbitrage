@@ -29,7 +29,7 @@ const exchanges = [
     Cb: 0,
     Tbtc: (Bb) => Math.min(Math.max(Bb * 0.005, 0.005), 1),
     Mb: Infinity },
-  { name: 'gatecoin', fb: 0.0035, Cb: 7 - (110-80) / 7.84 - 25, Tbtc: 0.000,  Mb: 50000 },
+  { name: 'gatecoin', fb: 0.0035, Cb: 7 - (110-80) / 7.84, Tbtc: 0.000,  Mb: 50000 },
 ];
 
 const sellExchanges = [
